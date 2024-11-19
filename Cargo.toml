@@ -65,7 +65,6 @@ ammonia = { version = "4.0.0", optional = true }
 fast_poisson = { version = "0.5.2", optional = true, features = [
     "single_precision",
 ] } # Higher versions have problems with x86 due to 'kiddo'.
-workerpool = "1.2.1"
 translit = { version = "0.5.0", optional = true }
 
 [features]
